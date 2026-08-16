@@ -45,12 +45,12 @@ export function SkillsSection() {
     {
       icon: <Server className="w-6 h-6 text-white" />,
       title: 'Back-end',
-      skills: ['PHP', 'Laravel', 'Node.js', 'Express', 'Python', 'API REST'],
+      skills: ['PHP', 'Laravel', 'Node.js', 'Express', 'Python'],
     },
     {
       icon: <Database className="w-6 h-6 text-white" />,
       title: 'Bases de données',
-      skills: ['MySQL', 'PostgreSQL', 'MongoDB', 'MariaDB', 'SQLite'],
+      skills: ['MySQL','MongoDB'],
     },
     {
       icon: <Wrench className="w-6 h-6 text-white" />,

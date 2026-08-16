@@ -65,7 +65,7 @@ export function HeroSection({ onViewProjects }: HeroSectionProps) {
               </button>
 
                   <a
-                    href="/CV-Aya-BELGHAZI.pdf" // Remplace par le nom exact de ton fichier dans le dossier public
+                    href="/aya_cv.pdf" // Remplace par le nom exact de ton fichier dans le dossier public
                     target="_blank"
                     // Le nom sous lequel le recruteur va l'enregistrer
                     className="inline-flex items-center gap-2 px-6 py-3 bg-white border-2 border-gray-300 text-gray-700 rounded-lg hover:border-blue-400 hover:text-blue-600 transition-all duration-300 hover:shadow-md"

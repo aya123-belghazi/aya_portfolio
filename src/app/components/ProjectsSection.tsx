@@ -4,10 +4,11 @@ import { ProjectCard } from './ProjectCard';
 const projects = [
   {
     id: 1,
-    title: 'Site E-commerce Dynamique',
-    description: 'Création d\'un site de vente en ligne "from scratch". Conception d\'une base de données relationnelle sur mesure pour le catalogue et les clients, avec une attention particulière portée à la sécurisation des sessions et des formulaires.',
-    image: '/images/projet-ecommerce-php.png',
-    technologies: ['PHP', 'MySQL']
+    title: 'E-School - Gestion d\'Établissement',
+    description: 'Digitalisation complète des services pour l\'administration, les formateurs et les stagiaires. Gestion centralisée (notes, absences, emplois du temps) avec tableaux de bord et alertes. Interface responsive (Dark/Light mode) et Chatbot FAQ visiteur.',
+    image: '/images/projet-eschool.png', // À modifier avec le bon chemin
+    technologies: ['React', 'Laravel', 'MySQL', 'Tailwind CSS', 'shadcn/ui']
+    
   },
   {
     id: 2,
@@ -18,10 +19,11 @@ const projects = [
   },
   {
     id: 3,
-    title: 'Plateforme de Création de Portfolio',
-    description: 'Conception d\'un site web intuitif permettant de générer des portfolios en ligne personnalisés sans aucune compétence technique préalable. Interface responsive et moderne, avec gestion complète de l\'authentification et des données côté serveur.',
-    image: '/images/projet-portfolio-maker.png',
-    technologies: ['HTML', 'CSS', 'Bootstrap', 'Tailwind CSS', 'JavaScript', 'PHP', 'MySQL']
+    title: 'RentFlow Pro - Gestion Locative (SaaS)',
+    description: 'Plateforme centralisée pour la digitalisation des agences de location. Intègre un système de réservation en ligne, un tableau de bord en temps réel et un éditeur visuel Drag & Drop pour générer contrats PDF et factures avec signature électronique.',
+    image: '/images/projet-rentflow.png', // À modifier avec le bon chemin
+    technologies: ['React.js', 'Laravel', 'MySQL']
+   
   },
   {
     id: 4,
@@ -36,6 +38,26 @@ const projects = [
     description: 'Configuration, personnalisation et déploiement d\'un site e-commerce performant. Intégration de modules de paiement sécurisé et optimisation technique pour le référencement naturel (SEO).',
     image: '/images/projet-boutique-wp.jpeg',
     technologies: ['WordPress', 'WooCommerce', 'Astra', 'SEO']
+  },{
+    id: 6,
+    title: 'Site E-commerce Dynamique',
+    description: 'Création d\'un site de vente en ligne "from scratch". Conception d\'une base de données relationnelle sur mesure pour le catalogue et les clients, avec une attention particulière portée à la sécurisation des sessions et des formulaires.',
+    image: '/images/projet-ecommerce-php.png',
+    technologies: ['PHP', 'MySQL']
+  },
+  {
+    id: 7,
+    title: 'Plateforme de Création de Portfolio',
+    description: 'Conception d\'un site web intuitif permettant de générer des portfolios en ligne personnalisés sans aucune compétence technique préalable. Interface responsive et moderne, avec gestion complète de l\'authentification et des données côté serveur.',
+    image: '/images/projet-portfolio-maker.png',
+    technologies: ['HTML', 'CSS', 'Bootstrap', 'Tailwind CSS', 'JavaScript', 'PHP', 'MySQL']
+  },
+  {
+    id: 8,
+    title: 'Dar L\'Hout - Site Vitrine & Multilingue',
+    description: 'Développement d\'un site web multilingue pour un établissement de restauration. Intégration d\'un menu interactif, d\'une carte de localisation, d\'un module de contact rapide via WhatsApp et d\'un système de traduction dynamique pour une clientèle internationale.',
+    image: '/images/projet-dar-lhout.png',
+    technologies: ['WordPress', 'Astra', 'Elementor', 'TranslatePress']
   }
 ];
 
